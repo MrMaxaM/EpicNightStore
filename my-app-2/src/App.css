@@ -1,0 +1,60 @@
+.App {
+  min-height: 100%;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #2e5b79;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+form {
+	width: 100%;
+	max-width: 540px;
+  margin: auto;
+}
+
+.input {
+	display: block;
+	margin: 8px;
+	padding: 9px;
+	width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4px;
+}
+
+.Product-card {
+  background-color: #2e5b79;
+  color: white;
+}
+
+.card-subtext {
+  font-size: small;
+}
+
+.welcome-text {
+  font-size: x-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  max-width: 78%;
+}
+
+ul li {
+  text-align: left;
+}
+
+.game-cover {
+  width: 12vw;
+  height: 15vh;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+}
